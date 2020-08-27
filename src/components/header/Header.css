@@ -1,0 +1,67 @@
+.header {
+    background-image: url("../../img/hero/h1_hero.png");
+    height: 840px;
+}
+.header img{
+    margin-top: 40px;
+    margin-left: 220px;
+}
+.header nav{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    line-height: 50px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 4px;
+}
+nav a:hover{
+    background-color: #DF68FE;
+
+}
+.header button{
+    background-color: #6674FF;
+    padding: 15px 34px;
+    border-radius: 7px;
+    border: 1px solid #C76AFF;
+    font-size: 18px;
+    color: white;
+    float: right;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.header button:hover{
+   background-color: #FF9F67; 
+}
+.heading {
+    margin-left: 450px;
+}
+.heading h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 120px;
+}
+.heading p{
+    color: White;
+    font-size: 22px;
+}
+.heading a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #AE59FF;
+    font-size: 22px;
+    border-radius: 7px;
+    color: white;
+}
+.join-btn{
+    margin-top: 80px;
+}
+.heading a:hover{
+    background-color: #FF9F67;
+}
+
