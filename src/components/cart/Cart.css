@@ -6,14 +6,18 @@
     color: #4255A4;
     margin-left: 500px;
 }
-
+.cart h3{
+    margin-left: 10px;
+    font-size: 22px;
+    color: #f6b93b;
+}
 .header-start {
     display: flex;
     height: 380px;
 }
 .cart{
-    border-right: 1px solid lightgrey;
-    padding-right: 30px;
+    border-right: 2px solid lightgrey;
+    padding-right: 50px;
     margin-top: 60px;
     height: 240px;
 }

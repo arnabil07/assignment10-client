@@ -21,6 +21,9 @@
     text-align: center;
     margin-left: 150px;
 }
+.main-area{
+    margin-top: 0px;
+}
 .main-area button:hover{
     background-color: #6873FF;
 }

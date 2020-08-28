@@ -1,15 +1,13 @@
 import React from 'react';
-import '.items/Item.css';
-
-
+import './Item.css';
+import '../cart/Cart';
 
 const Items = () => {
 
      
     return (
         
-        
-        <div className="main-area">   
+    <div className="main-area">   
         <div class="starting-area">
             <div className="card1"><img src="" alt=""/> <h2>React.js Course</h2> <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p> <h3>Price: $87</h3> <button>Enroll now</button> </div>
 
@@ -44,9 +42,17 @@ const Items = () => {
 
             <div className="card3"><img src="" alt=""/> <h2>Web Design Course</h2> <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p> <h3>Price: $97</h3> <button>Enroll now</button> </div>
             </div>
+
+
+            <div className="second-courses">
+            <div className="card1"><img src="" alt=""/> <h2>Web Design Course</h2> <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p> <h3>Price: $82</h3> <button>Enroll now</button> </div>
+
+            <div className="card2"><img src="" alt=""/> <h2>Online Marketing Course</h2> <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p> <h3>Price: $79</h3> <button>Enroll now</button> </div>
+
+            <div className="card3"><img src="" alt=""/> <h2>Digital Marketing Course</h2> <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p> <h3>Price: $57</h3> <button>Enroll now</button> </div>
+            </div>
     </div>
 </div>
-
 
 
     );
