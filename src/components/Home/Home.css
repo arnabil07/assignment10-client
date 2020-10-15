@@ -1,0 +1,10 @@
+.brand-logo{
+    height: 25%;
+    width: 25%;
+}
+.container{
+    background-image: url('../../')
+}
+.btn-primary {
+    margin-right: 10px;
+}
